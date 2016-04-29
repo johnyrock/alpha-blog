@@ -1,2 +1,65 @@
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #DE0202;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #C70000;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url("heroku_background.jpg");
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  fot-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
