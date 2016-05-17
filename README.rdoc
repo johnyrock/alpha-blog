@@ -1,1 +1,3 @@
 This is the repository for my first Rails Application, the Alpha Blog
+
+Heroku deployed app: <a href="https://ror-course-johnyrock.c9users.io/">Alpha Blog</a>
